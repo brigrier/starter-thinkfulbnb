@@ -43,7 +43,9 @@ main img {
 
 .item {
   flex: 1;
-  margin: 10px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .item-double {
