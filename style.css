@@ -31,7 +31,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -43,7 +43,7 @@ main img {
 
 .item {
   flex: 1;
-  margin: 20px;
+  margin: 10px;
   display: flex;
   flex-direction: column;
 }
