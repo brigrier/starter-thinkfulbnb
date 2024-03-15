@@ -174,4 +174,10 @@ footer p {
   .item-double {
     justify-content: center;
   }
+
+  .stack {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
 }
