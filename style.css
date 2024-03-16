@@ -148,13 +148,22 @@ footer p {
   form {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: space-evenly;
+    flex-direction: wrap;
     padding-top: 25px;
+    ;
+    
   }
 
-  button {
-    margin-top: -10px;
+  form div {
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  form button {
+    flex: 1;
   }
 
   form label {
