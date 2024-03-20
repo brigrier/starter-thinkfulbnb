@@ -91,8 +91,8 @@ form {
   padding: 10px;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
+ /* flex-wrap: wrap; */
+  /* align-items: center; */
   justify-content: center;
   /* Corrected property */
 }
@@ -101,13 +101,15 @@ form {
 form label {
   font-weight: bold;
   display: inline-flex;
+  
 }
 
 form select,
 form input {
   margin-bottom: 20px;
-  width: 180px;
-  display: inline-flex;
+  width: 90%;
+ /* display: inline-flex; */
+ 
 }
 
 form button {
@@ -156,9 +158,9 @@ footer p {
   }
 
   form div {
-    flex: 1;
-    align-content: center;
-    justify-content: center;
+   /* flex: 1; */
+    /* align-content: center; */
+    align-items: start;
     flex-direction: column;
   }
 
